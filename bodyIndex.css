@@ -1,0 +1,103 @@
+/* body.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #3498db, #2ecc71); /* Gradient background */
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #34495e;
+    color: #ffffff;
+    padding: 15px 0;
+}
+
+/* body.css */
+
+.logo {
+    max-width: 20%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.navbar {
+    margin-top: 10px;
+}
+
+.navbar-brand {
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.main-content {
+    background-color: #ffffff;
+    margin-top: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #2ecc71;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 20px;
+}
+
+p {
+    color: #34495e;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+.btn-secondary {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+    margin-left: 10px;
+}
+
+.image-container {
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.image-container:hover img {
+    transform: scale(1.1);
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+    header {
+        text-align: center;
+    }
+
+    .navbar {
+        justify-content: center;
+    }
+
+    .navbar-brand {
+        margin-right: 0;
+    }
+
+    .main-content {
+        padding: 20px;
+    }
+}
